@@ -1,0 +1,2 @@
+rootProject.name = "FreePersonaWorld"
+include ':app'

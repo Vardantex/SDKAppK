@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyActivity"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:stretchColumns="0, 1, 2, 3" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:background="@color/orange_cream"
+            android:layout_gravity="end"
+            android:text="@string/zero"
+            android:textSize="70sp" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        tools:ignore="MissingConstraints" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="70dp"
+            android:contentDescription="@string/ac"
+            android:onClick="goOperator"
+            android:text="@string/percent" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:minHeight="70dip"
+            android:contentDescription="@string/percent"
+            android:onClick="goOperator"
+            android:text="@string/div" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:minHeight="70dp"
+            android:contentDescription="@string/div"
+            android:onClick="goOperator"
+            android:text="@string/div" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" >
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/seven"
+            android:minHeight="70dip"
+            android:minWidth="70dp"
+            android:onClick="goOperator"
+            android:text="@string/seven" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/eight"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/eight" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/nine"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/nine" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/multi"
+            android:minHeight="70dip"
+            android:onClick="goOperator"
+            android:text="@string/multi" />
+
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" >
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:minHeight="70dip"
+            android:minWidth="70dp"
+            android:onClick="goOperator"
+            android:contentDescription="@string/four"
+            android:text="@string/four" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:minHeight="70dip"
+        android:onClick="goOperator"
+        android:contentDescription="@string/five"
+        android:text="@string/five" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:minHeight="70dip"
+        android:onClick="goOperator"
+        android:contentDescription="@string/five"
+        android:text="@string/five" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:minHeight="70dip"
+        android:onClick="goOperator"
+        android:contentDescription="@string/subtract"
+        android:text="@string/subtract" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" >
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:minHeight="70dip"
+        android:minWidth="70dp"
+        android:onClick="goOperator"
+        android:contentDescription="@string/one"
+        android:text="@string/one" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:minHeight="70dip"
+        android:onClick="goOperator"
+        android:contentDescription="@string/two"
+        android:text="@string/two" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:minHeight="70dip"
+        android:onClick="goOperator"
+        android:contentDescription="@string/three"
+        android:text="@string/three" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:minHeight="70dip"
+        android:onClick="goOperator"
+        android:contentDescription="@string/add"
+        android:text="@string/add" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/rableRow6"
+        tools:ignore="MissingConstraints"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" >
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="70dip"
+            android:layout_span="2"
+            android:onClick="goOperator"
+            android:contentDescription="@string/zero"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="70dip"
+            android:layout_span="2"
+            android:background="@color/dusk_blue"
+            android:onClick="goOperator"
+            android:contentDescription="@string/equal"
+            android:text="@string/equal" />
+
+    </TableRow>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

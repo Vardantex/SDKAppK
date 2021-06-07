@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FreePersonaWorld</string>
+
+
+    <array name="countries">
+        <item>Human</item>
+        <item>Elf</item>
+        <item>Zombie</item>
+        <item>Android</item>
+        <item>Gnome</item>
+        <item>Demon</item>
+    </array>
+
+</resources>
